@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-const PORT_NUMBER = 8001;
+const PORT_NUMBER = 8002;
 
 app.use("/", (req, res) => {
   res.send({ message: "Hello from Product" });
